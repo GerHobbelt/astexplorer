@@ -121,13 +121,17 @@
     "uglify-es": "^3.0.28",
     "uglify-loader": "^2.0.0",
     "webidl2": "^8.1.0",
-    "yaml-ast-parser": "^0.0.39"
+    "yaml-ast-parser": "^0.0.39",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "http-server ../out",
     "build": "rimraf ../out/* && cross-env NODE_ENV=production webpack",
     "watch": "webpack -dw",
     "lint": "eslint src/",
-    "fontcustom": "fontcustom compile ./fontcustom/input-svg/ --config=./fontcustom/config.yml"
-  }
+    "fontcustom": "fontcustom compile ./fontcustom/input-svg/ --config=./fontcustom/config.yml",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
