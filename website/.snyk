@@ -1,0 +1,150 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - babel6 > babel-core > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint2 > eslint > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint3 > eslint > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint4 > eslint > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-generator > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-generator > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint2 > eslint > inquirer > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint3 > eslint > inquirer > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint2 > eslint > table > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint3 > eslint > table > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint4 > eslint > inquirer > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint4 > eslint > table > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-traverse > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-traverse > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-traverse > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-traverse > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-template > babel-traverse > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-traverse > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-traverse > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-template > babel-traverse > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-traverse > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-traverse > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-template > babel-traverse > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel6 > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel7 > babel-core > babel-helpers > babel-template > babel-traverse > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+  'npm:lodash:20180130':
+    - babel5 > babel-core > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - babel5 > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+    - eslint1 > eslint > inquirer > lodash:
+        patched: '2021-03-18T01:20:31.470Z'
+  'npm:minimatch:20160620':
+    - babel5 > babel-core > minimatch:
+        patched: '2021-03-18T01:20:31.470Z'
